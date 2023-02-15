@@ -25,7 +25,7 @@ const InputName = () => {
 
 
                     <div className='input_pokedex_container'>
-                        <img className='img' src="src\assets\img\pokemonpng.png" alt="pikachu y achu" />
+                        <img className='img' src="https://images.wikidexcdn.net/mwuploads/wikidex/4/4c/latest/20161212021454/Entrenadores_guays_SL.png" alt="pikachu y achu" />
                     </div>
                 </div>
                 <p>Give me your name to start</p>

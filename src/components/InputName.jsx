@@ -14,32 +14,32 @@ const InputName = () => {
         navigate("/pokedex")
     }
     return (
-        <div className='container-info'>
-            <div className='input_pokedex'>
-                <div className='container_trainer'>
+        <div className='container-4'>
+            <div className='container-info'>
+                <div className='input_pokedex'>
                     <div className='container_trainer'>
-                        <b>
-                            <p>Hello Trainer!</p>
-                        </b>
+                        <div className='container_trainer'>
+                            <b>
+                                <p>Hello Trainer!</p>
+                            </b>
+                        </div>
+                        <div className='input_pokedex_container'>
+                            <img className='img' src="https://images.wikidexcdn.net/mwuploads/wikidex/4/4c/latest/20161212021454/Entrenadores_guays_SL.png" alt="pikachu y achu" />
+                        </div>
                     </div>
-
-
-                    <div className='input_pokedex_container'>
-                        <img className='img' src="https://images.wikidexcdn.net/mwuploads/wikidex/4/4c/latest/20161212021454/Entrenadores_guays_SL.png" alt="pikachu y achu" />
+                    <p>Give me your name to start</p>
+                    <div className='container-input'>
+                        <label className='label' htmlFor="input">
+                            <input
+                                className='inputtrainer'
+                                id='input'
+                                type="text"
+                                value={inputValue}
+                                onChange={e => setInputValue(e.target.value)}
+                            />
+                            <button className='buttom' onClick={clickButton}><i className='bx bxl-telegram'></i></button>
+                        </label>
                     </div>
-                </div>
-                <p>Give me your name to start</p>
-                <div className='container-input'>
-                    <label className='label' htmlFor="input">
-                        <input
-                            className='inputtrainer'
-                            id='input'
-                            type="text"
-                            value={inputValue}
-                            onChange={e => setInputValue(e.target.value)}
-                        />
-                        <button className='buttom' onClick={clickButton}><i className='bx bxl-telegram'></i></button>
-                    </label>
                 </div>
             </div>
         </div>

@@ -49,7 +49,7 @@ const Pokedex = () => {
 
     
     return (
-        <div>
+        <div className='container-pokedex-int'>
             <div className='container-select'>
                 <div className='cotainer-welcome'>
                     <div className='container-span'>

@@ -9,6 +9,13 @@
   ---movements-color: gray;
 }
 
+html, body{
+  height:100vh;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+}
+
 .switch {
   background-color: #343d5b;
   border-radius: 1000px;
@@ -97,9 +104,19 @@ body {
 }
 
 .col {
+  
   width: 100%;
   padding-top: 4rem;
   padding-left: 2rem;
+}
+
+
+
+
+
+.card:before,
+.card:after{
+  background: linear-gradient(235deg,#89ff00,#061c21,#00bcd4);
 }
 
 .card {
@@ -161,16 +178,25 @@ body {
   }
 }
 .container-info {
-  padding: 3rem;
+  height: 12rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-4{
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .input_pokedex {
   background-image: url("./assets/img/pokebolapng.png");
   background-repeat: no-repeat;
   padding: 3rem;
-  width: 73rem;
+  width: 70rem;
   height: 26.5rem;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  margin: 5rem auto;
 }
 .container_trainer {
   align-items: center;
@@ -271,6 +297,20 @@ input {
 
 .container-description {
   display: flex;
+}
+
+.container-5{
+  height: 60rem;
+}
+
+
+
+.conta
+
+.container-pokedex-int{
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 2.5rem;
 }
 
 .container-pokedex {
@@ -412,7 +452,7 @@ span {
 }
 
 .movements {
-  height: 49.5rem;
+  height: 44rem;
   overflow: scroll;
   overflow-x: hidden;
   margin-bottom: 2rem;

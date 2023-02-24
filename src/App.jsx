@@ -20,7 +20,8 @@ function App() {
     classDark = "active";
   }
   return (
-    <div className={`thm ${darkmode ? "darkmode" : "ligthmode"}`} >
+    <div
+      className={`thm ${darkmode ? "darkmode" : "ligthmode"}`} >
       <HashRouter>
         <button
           onClick={switchOn}
